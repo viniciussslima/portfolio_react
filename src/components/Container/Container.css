@@ -1,0 +1,155 @@
+@keyframes up {
+  from {
+    top: 50%;
+    opacity: 0%;
+  }
+  to {
+    top: 20px;
+    opacity: 100%;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.container {
+  background-color: #e0d275;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.content {
+  background-color: #8375e0;
+  min-width: 695px;
+  width: 90%;
+  min-height: 785px;
+  height: 90%;
+  display: flex;
+  border-radius: 20px;
+}
+
+.left {
+  background-color: #1e1e1e;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 20px;
+}
+
+.left-content {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  position: absolute;
+  animation: up 2s ease;
+}
+
+.left-content .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.left-content p {
+  margin-right: 20px;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+.right a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+.mePhoto {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 100;
+  right: 100px;
+  bottom: 0;
+  animation: show 4s ease;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  z-index: 100;
+  animation: show 4s ease;
+}
+
+.cssLogo {
+  top: 100px;
+  left: 50px;
+}
+
+.dockerLogo {
+  top: 300px;
+  left: 100px;
+}
+
+.gitLogo {
+  top: 100px;
+  right: 10px;
+}
+
+.htmlLogo {
+  top: 150px;
+  right: 250px;
+}
+
+.javaLogo {
+  bottom: 50px;
+  left: 20px;
+}
+
+.javascriptLogo {
+  bottom: 250px;
+  left: 50px;
+}
+
+.mongodbLogo {
+  bottom: 150px;
+  left: 150px;
+}
+
+.mysqlLogo {
+  top: 200px;
+  left: 250px;
+}
+
+.postgresLogo {
+  top: 300px;
+  right: 60px;
+}
+
+.reactLogo {
+  top: 500px;
+  right: 100px;
+}
+
+.redisLogo {
+  bottom: 300px;
+  left: 200px;
+}
+
+.springLogo {
+  top: 100px;
+  left: 300px;
+}
