@@ -1,10 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./index.css";
+
+import ReactDOM from "react-dom";
+
+import Router from "./Router";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>Hello Word!</div>
+    <Router />
   </React.StrictMode>,
   document.getElementById("root")
 );
