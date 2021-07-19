@@ -8,10 +8,10 @@ const SocialMedia = () => {
   return (
     <div className="left-content">
       <h1>Redes sociais</h1>
-      <div class="grid">
-        <div class="card">
+      <div className="grid">
+        <div className="card">
           <a
-            class="link"
+            className="link"
             href="https://www.linkedin.com/in/viniciussslima/"
             target="_blank"
             rel="noreferrer"
@@ -20,9 +20,9 @@ const SocialMedia = () => {
           </a>
           <h3>Linkedin</h3>
         </div>
-        <div class="card">
+        <div className="card">
           <a
-            class="link"
+            className="link"
             href="https://github.com/viniciussslima/"
             target="_blank"
             rel="noreferrer"
@@ -31,9 +31,9 @@ const SocialMedia = () => {
           </a>
           <h3>Github</h3>
         </div>
-        <div class="card">
+        <div className="card">
           <a
-            class="link"
+            className="link"
             href="https://t.me/viniciussslima/"
             target="_blank"
             rel="noreferrer"

@@ -6,9 +6,9 @@ const Projects = () => {
   return (
     <div className="left-content">
       <h1>Projetos pessoais</h1>
-      <div class="grid">
+      <div className="grid">
         <a
-          class="link"
+          className="link"
           href="https://clima-hoje.vercel.app/"
           target="_blank"
           rel="noreferrer"
