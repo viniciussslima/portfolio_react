@@ -3,7 +3,7 @@ import "./Container.css";
 
 import { useLocation, Link } from "react-router-dom";
 
-const Navigator = () => {
+const Navigator = ({ mobile }) => {
   const location = useLocation();
 
   return (
@@ -42,7 +42,7 @@ const Navigator = () => {
       >
         Redes sociais
       </Link>
-      <hr style={{ marginTop: 10 }} />
+      {!mobile && <hr style={{ marginTop: 10 }} />}
     </nav>
   );
 };

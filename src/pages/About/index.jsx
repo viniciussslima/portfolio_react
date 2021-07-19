@@ -17,7 +17,7 @@ const About = () => {
           Atualmente estou cursando bacharelado em Tecnologia da informação na
           Universidade Federal do Rio Grando do Norte (UFRN).
         </p>
-        <p>
+        <p id="obs">
           OBS: Essa foto minha foi tirada quando tentei usar tranças porém só
           durou 20 dias. Ai você me pergunta, então porque escolheu essa? Bem...
           Era a única que tinha um fundo facilmente removível.
