@@ -32,7 +32,7 @@
   background-color: #8375e0;
   min-width: 695px;
   width: 90%;
-  min-height: 785px;
+  /* min-height: 785px; */
   height: 90%;
   display: flex;
   border-radius: 20px;
@@ -98,87 +98,143 @@
   height: 100%;
   padding: 20px;
   position: relative;
+  font-size: 20px;
 }
 
 .right a {
   text-decoration: none;
+  font-size: 1rem;
   margin: 20px;
 }
 
-.mePhoto {
-  width: 500px;
-  height: 500px;
+.right img {
   position: absolute;
   z-index: 100;
-  right: 100px;
-  bottom: 0;
   animation: show 4s ease;
+}
+
+.mePhoto {
+  width: 25em;
+  height: 25em;
+  right: 5rem;
+  bottom: 0;
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  z-index: 100;
-  animation: show 4s ease;
+  width: 6em;
+  height: 6em;
 }
 
 .cssLogo {
-  top: 100px;
-  left: 50px;
+  top: 5rem;
+  left: 2.5rem;
 }
 
 .dockerLogo {
-  top: 300px;
-  left: 100px;
+  top: 15rem;
+  left: 5rem;
 }
 
 .gitLogo {
-  top: 100px;
-  right: 10px;
+  top: 5rem;
+  right: 0.2rem;
 }
 
 .htmlLogo {
-  top: 150px;
-  right: 250px;
+  top: 7.5rem;
+  right: 12.5rem;
 }
 
 .javaLogo {
-  bottom: 50px;
-  left: 20px;
+  bottom: 2.5rem;
+  left: 1rem;
 }
 
 .javascriptLogo {
-  bottom: 250px;
-  left: 50px;
+  bottom: 10rem;
+  left: 2.5rem;
 }
 
 .mongodbLogo {
-  bottom: 150px;
-  left: 150px;
+  bottom: 7.5rem;
+  left: 10rem;
 }
 
 .mysqlLogo {
-  top: 200px;
-  left: 250px;
+  top: 10rem;
+  left: 12.5rem;
 }
 
 .postgresLogo {
-  top: 300px;
-  right: 60px;
+  top: 15rem;
+  right: 3rem;
 }
 
 .reactLogo {
-  top: 500px;
-  right: 100px;
+  top: 25rem;
+  right: 5rem;
 }
 
 .redisLogo {
-  bottom: 300px;
-  left: 200px;
+  bottom: 15rem;
+  left: 15rem;
 }
 
 .springLogo {
-  top: 100px;
-  left: 300px;
+  top: 5rem;
+  left: 15rem;
+}
+
+@media (max-width: 1990px) {
+  .right {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1840px) {
+  .right {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1690px) {
+  .right {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1555px) {
+  .right {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .content {
+    height: 70%;
+  }
+
+  .right {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .content {
+    height: 60%;
+  }
+
+  .right {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 880px) {
+  .content {
+    height: 40%;
+  }
+
+  .right {
+    font-size: 6px;
+  }
 }
