@@ -35,6 +35,12 @@ const Navigator = ({ mobile }) => {
         Projetos
       </Link>
       <Link
+        to="/artigos"
+        style={location.pathname === "/artigos" ? { fontWeight: "bold" } : null}
+      >
+        Artigos
+      </Link>
+      <Link
         to="/redes_sociais"
         style={
           location.pathname === "/redes_sociais" ? { fontWeight: "bold" } : null
