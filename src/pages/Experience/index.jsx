@@ -72,7 +72,10 @@ const Experience = () => {
           <li>Desenvolvimento DevOps com gitlab CI/CD, docker e nginx;</li>
           <li>
             Implementação de sistemas web que recebem dados de dispositivos IoT
-            com TagoIO.
+            com TagoIO;
+          </li>
+          <li>
+            Testes em javascript com Jest e testes automatizados com Cypress.
           </li>
         </ul>
       </div>
