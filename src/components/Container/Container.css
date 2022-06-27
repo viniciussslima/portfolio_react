@@ -151,9 +151,11 @@ nav a {
   right: 12.5rem;
 }
 
-.javaLogo {
+.jestLogo {
   bottom: 2.5rem;
   left: 1rem;
+  width: 10em;
+  height: 10em;
 }
 
 .javascriptLogo {
@@ -186,7 +188,7 @@ nav a {
   left: 15rem;
 }
 
-.springLogo {
+.cypressLogo {
   top: 5rem;
   left: 15rem;
 }
