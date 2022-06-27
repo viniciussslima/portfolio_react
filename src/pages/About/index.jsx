@@ -6,12 +6,12 @@ const About = () => {
     <div className="left-content">
       <h1>Vinicius Santos Silva de Lima</h1>
       <div className="about-text">
-        <p>Sou desenvolvedor de software focado em desenvolvimento WEB.</p>
+        <p>Sou desenvolvedor de software focado em front-end e mobile.</p>
         <p>
-          Sempre estou em busca de me manter atualizado e aprender coisas novas.
+          Sempre estou em busca de me manter atualizado e aprender de tudo um pouco.
         </p>
         <p>
-          Além de programar gosto de praticar esportes e sair com os amigos.
+          Além de programar gosto de correr (tento até competir) e sair com os amigos.
         </p>
         <p>
           Atualmente estou cursando bacharelado em Tecnologia da informação na
